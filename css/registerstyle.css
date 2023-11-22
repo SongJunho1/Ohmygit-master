@@ -1,0 +1,119 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+a:link { color: #666; text-decoration: none;}
+a:visited { color: #666; text-decoration: none;}
+a:hover { color: #666; text-decoration: underline;}
+
+.head{
+  background-color: #AE3D3D;
+  border-bottom: 50px;
+}
+
+div header{
+  display: block;
+  padding-top: 75px;
+  padding-bottom: 35px;
+}
+
+div{
+  display: block;
+}
+
+.title {
+  text-align: center;
+  font-size: 35px;
+}
+
+div#col{
+  border: none !important;
+  padding-top: 100px;
+}
+
+div.wrappertable{
+  background-color: #fff;
+  border: 1px solid #bbb;
+  color: #666;
+}
+
+.wrappertable .header{
+  border-bottom: 1px solid #ddd;
+  text-align:  left;
+  padding: 15px;
+}
+
+.title a{
+  color: white;
+}
+
+div.header .rememberme{
+  float: right;
+  padding-right: 10px;
+  text-align: left;
+  font-size: 12px;
+  margin: 15px 0 5px;
+  line-height: 11px;
+}
+
+.layerbox{
+  margin: 0 auto;
+  position: relative;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0,0,0,0,3);
+}
+
+div.body{
+  padding-top: 20px;
+}
+
+div.body dl{
+  padding: 0 50px;
+}
+
+div.body dl dt{
+  text-align: left;
+  font-size: 11px;
+  margin: 15px 0 5px;
+  line-height: 11px;
+}
+
+div.body input.text{
+  width: 280px;
+  margin-right: auto;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.btn{
+  padding: 10px 20px;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+}
+
+.btn.btn_submit {
+  padding: 10px 40px !important;
+  background-color: #AE3D3D;
+  border: 1px solid #AE3D3D;
+  color: #fff;
+  margin-top: 30px;
+}
+
+div.body p{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.footer{
+  border-top: 1px solid #ccc;
+  padding-top: 2em;
+  font-size: 14px;
+  padding: 0 20px 20px 20px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+
+}

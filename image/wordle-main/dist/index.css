@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* round 1판의 answer box들이 있는 컨테이너*/
+.box-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 답 입력 칸 */
+.box-container > input {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  margin: 0.5rem;
+  border-radius: 0;
+  border: 0;
+  text-transform: uppercase;
+}
+
+/* input focus 효과 제거 */
+input:focus {
+  outline: none;
+}
+
+/* input 상태 표시 */
+.basic {
+  background-color: lightgray;
+}
+
+.correct {
+  background-color: lightgoldenrodyellow;
+}
+
+.correct-correct {
+  background-color: lightblue;
+}
+
+.wrong {
+  background-color: #ffb1ac;
+}
+
+/* 제출 버튼 */
+.custom-btn1 {
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.custom-btn1:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.custom-btn1:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.custom-btn1:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.custom-btn1:focus {
+  outline: 1px transparent;
+}
+
+.custom-btn1:before {
+  display: none;
+}
+
+.custom-btn1:-webkit-details-marker {
+  display: none;
+}
+
+.emp {
+  font-family: monospace;
+  background-color: #dde2e7;
+  padding: 0 4px;
+  border-radius: 4px;
+  color: #d63384;
+  word-wrap: break-word;
+}
+
+/*# sourceMappingURL=index.css.map */

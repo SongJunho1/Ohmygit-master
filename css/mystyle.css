@@ -1,0 +1,174 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+a:link{color: white; text-decoration: none;}
+a:hover{color: white; text-decoration: none;}
+a:visited{color: white; text-decoration: none;}
+html,body {height: 100%;}
+p.title{
+  font-size: 45px;
+  text-align: center;
+  color: white;
+  padding-top: 35px;
+
+}
+.head{
+  background-color: #AE3D3D;
+}
+div.wrapper ul {
+  text-align: center;
+}
+div.wrapper ul li {
+  display: inline-block;
+  padding: 35px;
+}
+#right-nav{
+  position: absolute;
+  right: 15px;
+  top: 0;
+  height: 35px;
+}
+#right-nav ul li{
+  list-style: none;
+}
+#breadcrumb .wrapper{
+  background-color: #DAD1D1;
+  padding: 13px;
+}
+
+#breadcrumb .wrapper span{
+  padding-left: 50px;
+  font-size: 13px;
+  color: #A7A1A1;
+}
+
+#content img{
+  padding-top: 30px;
+}
+
+#col .wrapper{
+  width: 980px;
+  margin: 0 auto;
+
+}
+.hentry{
+  padding: 40px 35px;
+}
+.wrapper div.entry-area article{
+
+  padding: 40px 35px;
+  height: 100%;
+}
+.entry-area{
+  border-right: solid 1px #A7A1A1;
+  border-left:solid 1px #A7A1A1;
+  height: 1500px;
+}
+div.sub_nav_depth_1{
+  top: 67px;
+  background-color: white;
+  color: #D8D8D8;
+  box-shadow: 0px 0px 1px 1px #A4A4A4;
+  position: absolute;
+  float: left;
+
+
+}
+
+div.sub_nav_depth_1 a{
+  color: #848484;
+
+}
+
+div.sub_nav_depth_1 .pin{
+  background-image: url(image/arrow.gif);
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  top: -8px;
+  left: 0;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#mainmenu div ul li{
+  position:relative;
+
+}
+
+#col div aside{
+  float: left;
+  width: 230px;
+  border-left: solid 1px #A7A1A1;
+  height: 100%;
+}
+
+#col div aside nav ol li div a{
+  color:  #A7A1A1;
+  font-size: 11px;
+}
+
+#col div aside nav ol{
+  list-style: none;
+
+}
+
+span.title{
+  padding: 15px;
+  text-align: center;
+  top: 10px;
+}
+#entry-area-1{
+  width: 745px;
+  float: left;
+  height: 100%;
+}
+
+#entry-area-1 .hentry hgroup{
+  text-align: center;
+}
+
+#entry-area-1 hgroup{
+  padding-bottom: 30px;
+  border-bottom: 1px solid #A7A1A1;
+}
+
+#entry-area-1 hgroup h1{
+  padding-bottom: 10px;
+}
+
+#yourstyle1 ul li{
+  padding: 15px;
+}
+
+#title-in-title{
+  border-bottom: 1px solid #A7A1A1;
+}
+
+.no_draggable li{
+  padding: 15px;
+
+}
+
+#title-in-title div a span{
+  font-size: 18px;
+
+}
+
+#entry-area-2 h1{
+  padding-bottom: 50px;
+  border-bottom: 1px solid #A7A1A1;
+}
+.movie{
+  text-align: center;
+}
+
+#entry-area-2 a{
+  color: #A7A1A1;
+
+}
+#entry-area-2 .hentry{
+  height: 1500px;
+}

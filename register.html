@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="css/registerstyle.css" />
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div id="whole-wrapper">
+    <div class="head">
+      <header>
+        <hgroup>
+          <p class="title">
+            <a href="register.html">회원가입</a>
+          </p>
+        </hgroup>
+      </header>
+    </div>
+    <div class="body">
+      <div id="col" class="single-col">
+        <div class="entry-area">
+          <div id="login-static" class="layerbox">
+            <form></form>
+            <div class="wrappertable">
+              <div class="header">
+                <strong>회원가입</strong>
+              </div>
+              <div class="body">
+                <dl>
+                  <dt>
+                      <label for="nickname">닉네임</label>
+                      <dd>
+                        <input type="text" class="text" id="nickname" name="nickname" value>
+                      </dd>
+                      <dt>
+                        <label for="predialog_email">아이디(혹은 이메일)</label>
+                      </dt>
+                  <dd>
+                    <input type="text" class="text" id="id">
+                  </dd>
+                  <dt>
+                  <label for="password">비밀번호</label>
+                </dt>
+                <dd>
+                  <input type="text" class="text" id="pw">
+                </dd>
+                <dt>
+                <label for="password">비밀번호 확인</label>
+              </dt>
+              <dd>
+                <input type="text" class="text" id="r_pw">
+              </dd>
+                  </dt>
+                </dl>
+                 <div class="btns">
+                  <p>
+                    <input type = "button" value="회원가입" onclick="create_id();">
+                  </p>
+                </div>
+              </div>
+              <div class="footer">
+                <a href="findpassword.html">비밀번호 찾기</a>
+                <span class="empty">|</span>
+                <a href="login.html">로그인</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <body>
+
+</html>
